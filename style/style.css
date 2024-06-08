@@ -1,0 +1,39 @@
+
+body{
+    background-color: darkslategrey;
+}
+
+.title{
+    text-align: center;
+    font-size: 5vh;
+    font-style: oblique;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3vh;
+}
+
+.intro p{
+    font-stretch:condensed;
+    text-wrap: wrap;
+    text-align: center;
+}
+.footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(31, 76, 65);
+    padding: 20px; 
+}
+.footer hr{
+    justify-self: initial;
+    align-items: start;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 7vh;
+}
