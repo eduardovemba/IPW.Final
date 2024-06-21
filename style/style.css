@@ -1,39 +1,59 @@
 
-body{
-    background-color: darkslategrey;
-}
 
-.title{
-    text-align: center;
-    font-size: 5vh;
-    font-style: oblique;
-}
-
-.titulo{
-    text-align: center;
-    font-size: 3vh;
-}
-
-.intro p{
-    font-stretch:condensed;
-    text-wrap: wrap;
-    text-align: center;
-}
-.footer {
-    position: fixed; 
-    bottom: 0;
-    left: 0;
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    
+    height: 100%;
     width: 100%;
-    background-color: rgb(31, 76, 65);
-    padding: 20px; 
 }
-.footer hr{
-    justify-self: initial;
-    align-items: start;
+
+article {
+    margin: 0 auto;
+    border: 5px solid transparent;
+    background-color: bisque;
+    width: calc(90% - 10px);
+    height: calc(100% - 10px);
 }
-.links{
-    display: flex;
-    justify-content: space-around;
-    color: black;
-    font-size: 7vh;
+
+header {
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+
+    border-bottom: 5px solid transparent;
+    height: calc(10% - 25px);
+}
+
+#esquerda {
+    float: left;
+    width: 20%;
+}
+
+ul#menu{
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    width: 100%;
+}
+ul#menu a {
+    display: inline-block;
+    padding: 5px 5px 5px 27px;
+    width: calc(100% - 32px);
+    text-decoration: none;
+    color: burlywood;
+
+}
+ul#menu a:hover{
+    color: azure;
+    background-color: antiquewhite;
+}
+#direita{
+    float: rigth;
+    padding: 0 10px;
+    height: 80%;
+    background-color: azure;
 }
