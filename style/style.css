@@ -65,10 +65,10 @@ ul#menu a:hover{
 footer {
     clear: both;
     text-align: left;
-    color: aliceblue;
+    color: black;
     font-size: 0.8em;
     padding: 15px 5px;
     border-top: 5px solid transparent;
-    height: calc(10€ - 35px);
-
+    height: calc(10% - 35px);
+    background-color: antiquewhite;
 }
