@@ -34,6 +34,8 @@ header {
 #esquerda {
     float: left;
     width: 20%;
+    height: 85%;
+    background-color: bisque;
 }
 
 ul#menu{
@@ -58,8 +60,11 @@ ul#menu a:hover{
     float: rigth;
     padding: 0 10px;
     height: 80%;
-    width: calc(80% - 20px);
+    width: calc(100% - 20px);
     background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    justify-content: space-around;
 }
 
 footer {
@@ -70,5 +75,7 @@ footer {
     padding: 15px 5px;
     border-top: 5px solid transparent;
     height: calc(10% - 35px);
-    background-color: antiquewhite;
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
