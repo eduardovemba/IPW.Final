@@ -6,7 +6,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: azure;
     
     height: 100%;
     width: 100%;
@@ -26,7 +26,6 @@ header {
     font-weight: bold;
     font-size: 2em;
     padding: 10px;
-
     border-bottom: 5px solid transparent;
     height: calc(10% - 25px);
 }
@@ -36,6 +35,13 @@ header {
     width: 20%;
     height: 85%;
     background-color: bisque;
+}
+#esquerda2 {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: bisque;
+
 }
 
 ul#menu{
@@ -56,15 +62,48 @@ ul#menu a:hover{
     color: azure;
     background-color: antiquewhite;
 }
+#direita h2 {
+    text-align: center;
+}
+#direita2 h2 {
+    text-align: center;
+}
 #direita{
     float: rigth;
     padding: 0 10px;
-    height: 80%;
+    height: 50% auto;
+    width: calc(100% - 20px);
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    justify-content: space-around;
+    border-radius: 5px;
+    border-style:inherit;
+
+}
+#direita2 {
+    float: rigth;
+    padding: 0 10px;
+    height: 50% auto;
+    width: calc(100% - 20px);
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    justify-content: space-around;
+    border-radius: 5px;
+    border-style:inherit;
+}
+#direita3 {
+    float: rigth;
+    padding: 0 10px;
+    height: 50% auto;
     width: calc(100% - 20px);
     background-color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2em;
     justify-content: space-around;
+    border-radius: 5px;
+    border-style:inherit;
 }
 
 footer {
@@ -78,4 +117,17 @@ footer {
     background-color: bisque;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
+}
+.img1 {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 100px;
+}
+.img2 {
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    left: 500px;
+    
 }
