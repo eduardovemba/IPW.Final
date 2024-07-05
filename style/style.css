@@ -7,7 +7,6 @@ html, body{
     margin: 0;
     padding: 0;
     background-color: azure;
-    
     height: 100%;
     width: 100%;
 }
@@ -120,7 +119,7 @@ footer {
 }
 .img1 {
     width: 120px;
-    height: 120px;
+    height: 150px;
     position: absolute;
     right: 100px;
 }
@@ -129,5 +128,13 @@ footer {
     height: 110px;
     position: absolute;
     left: 500px;
-    
+}
+.img3 {
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    top : 610px;
+    right: 450px;
+
+
 }
