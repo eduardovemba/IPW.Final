@@ -92,18 +92,7 @@ ul#menu a:hover{
     border-radius: 5px;
     border-style:inherit;
 }
-#direita3 {
-    float: rigth;
-    padding: 0 10px;
-    height: 50% auto;
-    width: calc(100% - 20px);
-    background-color: azure;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.2em;
-    justify-content: space-around;
-    border-radius: 5px;
-    border-style:inherit;
-}
+
 
 footer {
     clear: both;
@@ -118,23 +107,61 @@ footer {
     font-size: medium;
 }
 .img1 {
+    display: flex;
+    flex-wrap: wrap;
     width: 120px;
     height: 150px;
     position: absolute;
     right: 100px;
 }
 .img2 {
+    display: flex;
+    flex-wrap: wrap;
     width: 200px;
     height: 110px;
     position: absolute;
     left: 500px;
 }
 .img3 {
+    display: flex;
+    flex-wrap: wrap;
     width: 200px;
     height: 110px;
     position: absolute;
     top : 610px;
     right: 450px;
-
-
 }
+
+.verif{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 300px; 
+    justify-content: center;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  textarea {
+    display: flex;
+    justify-content: center;
+    width: 50%; 
+    min-height: 200px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  input {
+    max-width: 80px;
+  }
+  .p-images{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: space-between;
+  }
+  
