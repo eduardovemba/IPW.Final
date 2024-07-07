@@ -1,5 +1,5 @@
 document.getElementById('meuFormulario').addEventListener('submit', function(e) {
-    e.preventDefault(); // Previne o envio padrão do formulário
+    e.preventDefault(); 
 
     var nome = document.getElementById('nome').value;
     var password = document.getElementById('password').value;
@@ -12,7 +12,6 @@ document.getElementById('meuFormulario').addEventListener('submit', function(e) 
         return;
     }
 
-    // dados do formulario
     var dadosFormulario = `
         Nome: ${nome}
         Password: ${password}
@@ -24,7 +23,7 @@ document.getElementById('meuFormulario').addEventListener('submit', function(e) 
     // Exibe os dados em um alerta
     alert('Dados do formulário:\n' + dadosFormulario);
 
-    // Opcional: Limpa o formulário após o envio
+    //  Limpa o formulário após o envio
     this.reset();
 });
 
