@@ -1,7 +1,6 @@
 document.getElementById('meuFormulario').addEventListener('submit', function(e) {
     e.preventDefault(); // Previne o envio padrão do formulário
 
-    // Verifica se todos os campos estão preenchidos
     var nome = document.getElementById('nome').value;
     var password = document.getElementById('password').value;
     var sexo = document.querySelector('input[name="sexo"]:checked');
@@ -13,7 +12,7 @@ document.getElementById('meuFormulario').addEventListener('submit', function(e) 
         return;
     }
 
-    // Cria uma string com todos os dados do formulário
+    // dados do formulario
     var dadosFormulario = `
         Nome: ${nome}
         Password: ${password}
@@ -29,7 +28,6 @@ document.getElementById('meuFormulario').addEventListener('submit', function(e) 
     this.reset();
 });
 
-// Adiciona um evento para o botão Limpar
 document.querySelector('input[type="reset"]').addEventListener('click', function() {
     alert('Formulário limpo!');
 });
