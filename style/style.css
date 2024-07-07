@@ -77,8 +77,9 @@ ul#menu a:hover{
     font-size: 1.2em;
     justify-content: space-around;
     border-radius: 5px;
-    border-style:inherit;
-
+    border-style:inherit;   
+    flex-shrink: 50%;
+    flex-basis: 0;
 }
 #direita2 {
     float: rigth;
@@ -113,6 +114,8 @@ footer {
     height: 150px;
     position: absolute;
     right: 100px;
+    flex-shrink: 50%;
+    flex-basis: 0;
 }
 .img2 {
     display: flex;
@@ -121,6 +124,8 @@ footer {
     height: 110px;
     position: absolute;
     left: 500px;
+    flex-shrink: 50%;
+    flex-basis: 0;
 }
 .img3 {
     display: flex;
@@ -130,12 +135,18 @@ footer {
     position: absolute;
     top : 610px;
     right: 450px;
+    flex-shrink: 50%;
+    flex-basis: 0;
 }
 
 .verif{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.nome {
+    border: black;
+    border-style: double;
 }
 .labels{
     display: flex;
