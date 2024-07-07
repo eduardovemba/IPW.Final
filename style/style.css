@@ -175,4 +175,9 @@ footer {
     height: 100px;
     justify-content: space-between;
   }
+  textarea {
+    max-width: 500px;
+    max-height: 500px;
+
+  }
   
