@@ -144,31 +144,6 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
-.nome {
-    border: black;
-    border-style: double;
-}
-.labels{
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-    max-width: 300px; 
-    justify-content: center;
-    justify-content: space-around; 
-    align-items: center;
-  }
-  textarea {
-    display: flex;
-    justify-content: center;
-    width: 50%; 
-    min-height: 200px;
-    resize: vertical;
-    border: 1px solid #ccc;
-    padding: 5px;
-  }
-  input {
-    max-width: 80px;
-  }
   .img4{
     display: flex;
     width: 200px;
@@ -189,9 +164,36 @@ footer {
     position: absolute;
     right: 600px;
     bottom: 3px;
+  }
+ .img7{
+    display: flex;
+    width: 200px;
+    height: 100px;
 
-  }
-  textarea {
-    max-width: 500px;
-    max-height: 500px;
-  }
+ }
+ .img8{
+    display: flex;
+    width: 200px;
+    height: 100px;
+ }
+ fieldset {
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+legend {
+    font-weight: bold;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 100px;
+}
+
+  
